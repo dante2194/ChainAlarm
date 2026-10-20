@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- clock ring -->
+    <path
+        android:pathData="M54,44m-19,0a19,19 0 1,1 38,0a19,19 0 1,1 -38,0"
+        android:strokeColor="#FFA8C7FA"
+        android:strokeWidth="5" />
+    <!-- hands -->
+    <path
+        android:pathData="M54,44L54,33M54,44L61,49"
+        android:strokeColor="#FFA8C7FA"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+    <!-- chain of dots -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M34,77a3.6,3.6 0 1,0 7.2,0a3.6,3.6 0 1,0 -7.2,0z" />
+    <path
+        android:fillColor="#E6FFFFFF"
+        android:pathData="M45,77a3.6,3.6 0 1,0 7.2,0a3.6,3.6 0 1,0 -7.2,0z" />
+    <path
+        android:fillColor="#B3FFFFFF"
+        android:pathData="M56,77a3.6,3.6 0 1,0 7.2,0a3.6,3.6 0 1,0 -7.2,0z" />
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M67,77a3.6,3.6 0 1,0 7.2,0a3.6,3.6 0 1,0 -7.2,0z" />
+</vector>
